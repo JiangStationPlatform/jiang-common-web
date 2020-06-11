@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
  * 初始化常量拦截器
  */
 public class ConstantsInterceptor implements HandlerInterceptor {
-    private static final String HOST_CDN="http://www.jiangshikai.com";
+    private static final String HOST_CDN="http://192.168.190.132";
     private static final String TEMPLATE_ADMIN_LTE="adminlte";
 
     @Override
